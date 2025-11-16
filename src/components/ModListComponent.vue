@@ -17,6 +17,7 @@
     border-style: solid;
     border-color: #464746;
     border-radius: 19px;
+    width: 600px;
 
 }
 #tincraft_logo {

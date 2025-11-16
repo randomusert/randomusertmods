@@ -1,21 +1,25 @@
 <script setup lang="ts">
 import ModListComponent from './components/ModListComponent.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 </script>
 
 <template>
-  <header>
-    
 
+  <main>
+    <header-component/>
     <div class="wrapper">
       <router-view/>
     </div>
-  </header>
-
-  <main>
-    
+    <FooterComponent/>
   </main>
 </template>
 
 <style scoped>
-
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 </style>
