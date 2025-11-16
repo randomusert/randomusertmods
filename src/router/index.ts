@@ -1,12 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import ModListComponent from '@/components/ModListComponent.vue'
 
 const routes = [
-    {path: '/web/', component: ModListComponent }
+    {path: '/', component: ModListComponent }
 ]
 
 const router = createRouter({
-    history: createWebHistory("/web/"),
+    history: createWebHashHistory("/"),
     routes
 })
 
