@@ -1,4 +1,4 @@
-<script lang="ts"></script>
+<script setup lang="ts"></script>
 <template>
     <div id="footer">
         <p>© 2025 Randomusert's Mods. Licensed under MIT License.</p>
